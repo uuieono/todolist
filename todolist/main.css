@@ -1,0 +1,39 @@
+
+#todolist{
+    text-align: center;
+    margin: 10px;
+    padding: auto;
+}
+body{
+    display: grid;
+    min-height: 100dvh;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: Garamond,serif;
+}
+
+.item{
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    border-width: 0 0 1px;
+}
+#input__button{
+    width: 90px;
+    height: 50px;
+}
+
+
+ul li.checked {
+    background:  transparent;
+    color: #272341;
+    text-decoration: line-through;
+  }
+  
+  ul{
+    list-style:none;
+    font-size: 25px;
+    font-family: "Noto Serif KR", serif;
+    }
